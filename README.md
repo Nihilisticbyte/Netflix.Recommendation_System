@@ -86,23 +86,4 @@ python scripts/generate_recommendations.py
 
 > Actual values depend on subset size and hyperparameters.
 
----
 
-## 📏 Evaluation Protocol
-
-- **Train/Test Split**: 80/20 random split, stratified by user
-- **Relevance Threshold**: Rating ≥ 3.5 is considered relevant
-- **RMSE**: Measured on held-out (user, movie, rating) triples
-- **MAP@10**: For each test user, generate Top-10 recommendations and compute average precision against relevant items
-
----
-
-## 🗓️ 5-Day Plan
-
-| Day | Focus |
-|---|---|
-| Day 1 | Setup, data loading, EDA |
-| Day 2 | User-CF + Item-CF + RMSE baseline |
-| Day 3 | SVD + ALS + MAP@10 evaluation |
-| Day 4 | Neural CF + full model comparison |
-| Day 5 | Report + slides + cleanup |
