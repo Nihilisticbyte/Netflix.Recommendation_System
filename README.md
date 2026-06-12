@@ -74,16 +74,5 @@ python scripts/generate_recommendations.py
 
 ---
 
-## 📊 Models Compared
-
-| Model | RMSE | MAP@10 | Notes |
-|---|---|---|---|
-| User-Based CF | ~1.05 | ~0.12 | Simple baseline |
-| Item-Based CF | ~0.98 | ~0.15 | Better for sparse data |
-| SVD (Matrix Factorization) | ~0.91 | ~0.20 | Strong baseline |
-| ALS | ~0.93 | ~0.18 | Scalable |
-| Neural CF | ~0.89 | ~0.22 | Best quality |
-
-> Actual values depend on subset size and hyperparameters.
 
 
